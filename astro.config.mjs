@@ -1,9 +1,15 @@
 import { defineConfig } from "astro/config";
+import vercel from "@astrojs/vercel/serverless";
 
 export default defineConfig({
   site: "https://aaronferrer-vlc.github.io",
   base: "AaronFerrer-VLC.github.io",
   output: "static",
+    adapter: vercel({
+    webAnalytics: {
+      enabled: true,
+    },
+  }),
 });
 
 
