@@ -6,6 +6,7 @@ import vercel from "@astrojs/vercel/serverless";
 export default defineConfig({
   site: 'https://aaronferrer-vlc.github.io/',
   base: '/AaronFerrer-VLC.github.io/',
+>>>>>>> 978b83e391050441821cef9271337c147194d25e
   output: "static",
   adapter: vercel({
     webAnalytics: {
