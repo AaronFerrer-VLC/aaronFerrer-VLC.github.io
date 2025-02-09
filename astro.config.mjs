@@ -2,7 +2,7 @@ import { defineConfig } from "astro/config";
 
 export default defineConfig({
   site: "https://aaronferrer-vlc.github.io",
-  base: "/AaronFerrer-VLC/",
+ // base: "/AaronFerrer-VLC/",
   output: "static",
 });
 
