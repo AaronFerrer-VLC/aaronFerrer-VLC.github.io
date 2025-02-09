@@ -5,7 +5,8 @@ import vercel from "@astrojs/vercel/serverless";
 // If you want to remove vercel from your project you can do npm uninstall vercel
 export default defineConfig({
   site: 'https://AaronFerrer-VLC.github.io',
-  output: "server",
+  base: '/AaronFerrer-VLC.github.io/',
+  output: "static",
   adapter: vercel({
     webAnalytics: {
       enabled: true,
