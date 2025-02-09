@@ -137,7 +137,7 @@ export const skills = [
 
 export const projects = [
   {
-    img: "/AaronFerrer-VLC.github.io/img/PickUp.png",
+    img: "../../img/PickUp.png",
     title: "PickUp",
     link: "https://lareview2.netlify.app/",
     description: `Aplicación web para compartir críticas de cine y unirse a comunidades de cinéfilos. Incluye un sistema de autenticación de usuarios y gestión dinámica de bases de datos con MongoDB.`,
@@ -166,7 +166,7 @@ export const projects = [
     ],
   },
   {
-    img: "/AaronFerrer-VLC.github.io/img/LaPremier.png",
+    img: "../../img/LaPremier.png",
     title: "LaPremier",
     link: "https://lapremiere.netlify.app/",
     description: `Aplicación web para conocer cines, ver que películas se emiten o estrenan y compartir reseñas de las películas. Incluye un sistema de autenticación de usuarios y gestión dinámica de bases de datos con MongoDB.`,
@@ -195,7 +195,7 @@ export const projects = [
     ],
   },
   {
-    img: "/AaronFerrer-VLC.github.io/img/Solentine.png",
+    img: "../../img/Solentine.png",
     title: "Solentine",
     link: "https://solentine.netlify.app/",
     description: `Administrador de tareas con autenticación de usuarios y gestión dinámica de bases de datos con MongoDB.`,
