@@ -32,6 +32,10 @@ jobs:
           path: . # Ensure the root location of your Astro project is set correctly
           node-version: 20 # Ensure the correct Node version is used
           package-manager: pnpm@latest # Ensure the correct package manager is used
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: ./dist
 
   deploy:
     needs: build
