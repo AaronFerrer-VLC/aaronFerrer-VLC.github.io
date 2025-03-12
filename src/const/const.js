@@ -3,14 +3,8 @@ export const studies = [
     title: "Desarrollo Web y Programación",
     corporation: "Ironhack (Spain) ",
     date: "10/2024 – 12/2024",
-    title: "Desarrollo Web y Programación",
-    corporation: "Ironhack (Spain) ",
-    date: "10/2024 – 12/2024",
   },
   {
-    title: "Grado Superior en Desarrollo de Aplicaciones Multiplataforma (DAM)",
-    corporation: "Ilerna",
-    date: "09/2023 – 06/2025",
     title: "Grado Superior en Desarrollo de Aplicaciones Multiplataforma (DAM)",
     corporation: "Ilerna",
     date: "09/2023 – 06/2025",
@@ -24,28 +18,22 @@ export const studies = [
     title: "Grado Superior en Administración y gestión de empresas",
     corporation: "IES Serpis",
     date: "09/2009 - 06/2011",
-    title: "Grado en gestión de recursos humanos/Administración de personal",
-    corporation: "Universidad de Valencia",
-    date: "09/2011 – 06/2015",
   },
-]
+];
 
 export const IconKeys = {
   html: "html",
   css: "css",
   javaScript: "javaScript",
   typeScript: "typeScript",
-  typeScript: "typeScript",
+  python: "python",
   react: "react",
-  express: "express",
   express: "express",
   astro: "astro",
   nextjs: "nextjs",
   jest: "jest",
-  jest: "jest",
   git: "git",
   github: "github",
-  php: "php",
   php: "php",
   nodejs: "nodejs",
   mongodb: "mongodb",
@@ -57,7 +45,7 @@ export const IconKeys = {
   bruno: "bruno",
   notion: "notion",
   trello: "trello",
-  netifly: "netifly",
+  netifly: "netlify",
   markdown: "markdown"
 };
 
@@ -75,16 +63,16 @@ export const skills = [
     icon: IconKeys.javaScript,
   },
   {
+    title: "Python",
+    icon: IconKeys.python,
+  },
+  {
     title: "Astro",
     icon: IconKeys.astro,
   },
   {
     title: "React Js",
     icon: IconKeys.react,
-  },
-  {
-    title: "Jest",
-    icon: IconKeys.jest,
   },
   {
     title: "Jest",
@@ -111,8 +99,6 @@ export const skills = [
     icon: IconKeys.typeScript,
   },
   {
-    title: "PHP",
-    icon: IconKeys.php,
     title: "PHP",
     icon: IconKeys.php,
   },
@@ -157,22 +143,21 @@ export const skills = [
     icon: IconKeys.notion,
   },
   {
-    title: "Netifly",
-    icon: IconKeys.netifly,
+    title: "Netlify",
+    icon: IconKeys.netlify,
   },
   {
-  title: "Markdown",
-  icon: IconKeys.markdown,
-},
-
+    title: "Markdown",
+    icon: IconKeys.markdown,
+  },
 ];
 
 export const projects = [
   {
-    img: "../../../img/PickUp.png",
+    img: "/AaronFerrer-VLC.github.io/img/PickUp.png",
     title: "PickUp",
     link: "https://lareview2.netlify.app/",
-    description: `Aplicación web para compartir críticas de cine y unirse a comunidades de cinéfilos. Incluye un sistema de autenticación de usuarios y gestión dinámica de bases de datos con MongoDB.`,
+    description:`Aplicación web para compartir críticas de cine y unirse a comunidades de cinéfilos. Incluye un sistema de autenticación de usuarios y gestión dinámica de bases de datos con MongoDB.`,
     technologies: [
       {
         icon: IconKeys.html,
@@ -198,7 +183,7 @@ export const projects = [
     ],
   },
   {
-    img: "../../../img/LaPremier.png",
+    img: "/AaronFerrer-VLC.github.io/img/LaPremier.png",
     title: "LaPremier",
     link: "https://lapremiere.netlify.app/",
     description: `Aplicación web para conocer cines, ver que películas se emiten o estrenan y compartir reseñas de las películas. Incluye un sistema de autenticación de usuarios y gestión dinámica de bases de datos con MongoDB.`,
@@ -227,7 +212,7 @@ export const projects = [
     ],
   },
   {
-    img: "../../../img/Solentine.png",
+    img: "/AaronFerrer-VLC.github.io/img/Solentine.png",
     title: "Control de datos",
     link: "https://solentine.netlify.app/",
     description: `Administrador de tareas con autenticación de usuarios y gestión dinámica de bases de datos con MongoDB.`,
@@ -256,13 +241,12 @@ export const projects = [
     ],
   },
     {
-    img: "../../../img/Deborah.png",
+    img: "/AaronFerrer-VLC.github.io/img/Deborah.png",
     title: "Deborah Portfolio",
     link: "https://deborah-martin-redondo.netlify.app/",
     description: `Página personal de Deborah Martín Redondo, una asesora financiera europea y profesional en ciberseguridad.`,
     technologies: [
       {
-        icon: IconKeys.html,
         icon: IconKeys.html,
       },
       {
@@ -278,7 +262,7 @@ export const projects = [
         icon: IconKeys.astro,
       },
       {
-        icon: IconKeys.netifly,
+        icon: IconKeys.netlify,
       },
       {
         icon: IconKeys.markdown,

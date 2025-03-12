@@ -1,4 +1,5 @@
 import { defineConfig } from "astro/config";
+import vercel from "@astrojs/vercel";
 
 export default defineConfig({
   site: 'https://AaronFerrer-VLC.github.io',
@@ -10,7 +11,6 @@ export default defineConfig({
     },
   }),
 });
-
 
 //If you don't have vercel the configuration will be empty
 
