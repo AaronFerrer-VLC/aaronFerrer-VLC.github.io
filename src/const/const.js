@@ -39,8 +39,8 @@ export const IconKeys = {
   bruno: "bruno",
   notion: "notion",
   trello: "trello",
-
-  // here add more icon keys
+  netifly: "netifly",
+  markdown: "markdown"
 };
 
 export const skills = [
@@ -132,6 +132,14 @@ export const skills = [
     title: "Notion",
     icon: IconKeys.notion,
   },
+  {
+    title: "Netifly",
+    icon: IconKeys.netifly,
+  },
+  {
+  title: "Markdown",
+  icon: IconKeys.markdown,
+},
 
 ];
 
@@ -196,7 +204,7 @@ export const projects = [
   },
   {
     img: "../../../img/Solentine.png",
-    title: "Solentine",
+    title: "Control de datos",
     link: "https://solentine.netlify.app/",
     description: `Administrador de tareas con autenticación de usuarios y gestión dinámica de bases de datos con MongoDB.`,
     technologies: [
@@ -220,6 +228,35 @@ export const projects = [
       },
       {
         icon: IconKeys.nodejs,
+      }
+    ],
+  },
+    {
+    img: "../../../img/Deborah.png",
+    title: "Deborah Portfolio",
+    link: "https://deborah-martin-redondo.netlify.app/",
+    description: `Página personal de Deborah Martín Redondo, una asesora financiera europea y profesional en ciberseguridad.`,
+    technologies: [
+      {
+        icon: IconKeys.html,
+      },
+      {
+        icon: IconKeys.css,
+      },
+      {
+        icon: IconKeys.javaScript,
+      },
+      {
+        icon: IconKeys.github,
+      },
+      {
+        icon: IconKeys.astro,
+      },
+      {
+        icon: IconKeys.netifly,
+      },
+      {
+        icon: IconKeys.markdown,
       }
     ],
   },
