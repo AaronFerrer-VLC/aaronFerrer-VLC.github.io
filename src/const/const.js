@@ -3,8 +3,14 @@ export const studies = [
     title: "Desarrollo Web y Programación",
     corporation: "Ironhack (Spain) ",
     date: "10/2024 – 12/2024",
+    title: "Desarrollo Web y Programación",
+    corporation: "Ironhack (Spain) ",
+    date: "10/2024 – 12/2024",
   },
   {
+    title: "Grado Superior en Desarrollo de Aplicaciones Multiplataforma (DAM)",
+    corporation: "Ilerna",
+    date: "09/2023 – 06/2025",
     title: "Grado Superior en Desarrollo de Aplicaciones Multiplataforma (DAM)",
     corporation: "Ilerna",
     date: "09/2023 – 06/2025",
@@ -14,20 +20,32 @@ export const studies = [
     corporation: "Universidad de Valencia",
     date: "09/2011 – 06/2015",
   },
-];
+  {
+    title: "Grado Superior en Administración y gestión de empresas",
+    corporation: "IES Serpis",
+    date: "09/2009 - 06/2011",
+    title: "Grado en gestión de recursos humanos/Administración de personal",
+    corporation: "Universidad de Valencia",
+    date: "09/2011 – 06/2015",
+  },
+]
 
 export const IconKeys = {
   html: "html",
   css: "css",
   javaScript: "javaScript",
   typeScript: "typeScript",
+  typeScript: "typeScript",
   react: "react",
+  express: "express",
   express: "express",
   astro: "astro",
   nextjs: "nextjs",
   jest: "jest",
+  jest: "jest",
   git: "git",
   github: "github",
+  php: "php",
   php: "php",
   nodejs: "nodejs",
   mongodb: "mongodb",
@@ -69,6 +87,10 @@ export const skills = [
     icon: IconKeys.jest,
   },
   {
+    title: "Jest",
+    icon: IconKeys.jest,
+  },
+  {
     title: "Next Js",
     icon: IconKeys.nextjs,
   },
@@ -89,6 +111,8 @@ export const skills = [
     icon: IconKeys.typeScript,
   },
   {
+    title: "PHP",
+    icon: IconKeys.php,
     title: "PHP",
     icon: IconKeys.php,
   },
@@ -239,6 +263,7 @@ export const projects = [
     technologies: [
       {
         icon: IconKeys.html,
+        icon: IconKeys.html,
       },
       {
         icon: IconKeys.css,
@@ -261,3 +286,38 @@ export const projects = [
     ],
   },
 ];
+
+export const certificates = [
+  {
+    logo: 'https://upload.wikimedia.org/wikipedia/commons/c/ca/LinkedIn_logo_initials.png',
+    title: 'PHP avanzado',
+    issuer: 'LinkedIn',
+    date: 'feb. 2025',
+    skills: ['PHP'],
+    credential: 'https://www.linkedin.com/learning/certificates/d615d458e27a61598bd4ae0f045bcba0b6aa0825bf78e34aeeb95fcbdd7d6ffb'
+  },
+  {
+    logo: 'https://upload.wikimedia.org/wikipedia/commons/c/ca/LinkedIn_logo_initials.png',
+    title: 'PHP esencial',
+    issuer: 'LinkedIn',
+    date: 'feb. 2025',
+    skills: ['PHP'],
+    credential: 'https://www.linkedin.com/learning/certificates/45cd59aa99d08ff173a9add9f50824922ff645aa3af89448c655997c68260ad6'
+  },
+  {
+    logo: 'https://res.cloudinary.com/de0ld2xax/image/upload/v1739124084/descarga_oux27a.png',
+    title: 'MAD WD FT 2024-10-14 ES',
+    issuer: 'Ironhack',
+    date: 'dic. 2024',
+    skills: ['CSS', 'Node.js', 'JavaScript', 'Trabajo en equipo', 'HTML5', 'Express.js', 'React.js'],
+    credential: 'https://drive.google.com/file/d/1Sd3I3Uo1v8QvWNShVIQjdogwiqjAILXI/view'
+  },
+  {
+    logo: 'https://agilar.com/images/logos/agilar-color.svg',
+    title: 'Certified Scrum Product Owner® (SCPO®)',
+    issuer: 'Agilar Spain',
+    date: 'jun. 2021',
+    skills: ['Metodologías Agile y Waterfall', 'Road Map', 'Product Owner', 'Descubrimiento de producto', 'Scrum', 'Desarrollo de software'],
+    credential: 'https://drive.google.com/file/d/1I5_WT9vUVTgRh-WupCQO16FmeSY0oRb9/view'
+  }
+]
